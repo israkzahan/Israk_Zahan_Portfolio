@@ -139,3 +139,26 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+/* ----------------Services----------------------- */
+#services{
+    padding: 30px 4%;
+
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
+    grid-gap: 15%;
+    margin-top: 50px;
+    display: flex;
+    
+    
+}
+.services-list div{
+    background: #262626;
+    padding: 80px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+}
+/*50:31*/
